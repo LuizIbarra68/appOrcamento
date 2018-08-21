@@ -1,0 +1,28 @@
+<resources>
+
+
+    <string name="app_name">appBuild</string>
+    <string name="txtCliente">Client</string>
+    <string name="txtDefeito">Defect</string>
+    <string name="txtValor">Value</string>
+    <string name="txtTipo">Type</string>
+    <string name="txtOrcamento">Budget</string>
+    <string name="txtServio">Service</string>
+    <string name="txtCategoria">Category</string>
+    <string name="txtServicoFinalizado">FinishedService</string>
+    <string name="txtSalvar">Save</string>
+
+    <string name="hintNome">Enter the name here</string>
+    <string name="hintDefeito">Type the defect here</string>
+    <string name="hintValor">value</string>
+    <string name="Selecione">Select...</string>
+
+    <string-array name="Categoria">
+        <item>Select...</item>
+        <item>Hardware</item>
+        <item>System</item>
+        <item>Smartphone</item>
+        <item>Tablets</item>
+    </string-array>
+
+</resources>

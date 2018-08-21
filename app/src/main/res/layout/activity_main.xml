@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cliente"
+        android:background="#800f"
+        android:textAlignment="center"
+        android:textColor="#00f"
+        style="@style/estilolabel"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNome"
+        android:hint="Digite aqui o nome:"
+        android:inputType="textCapWords"
+        style="@style/estiloCampos"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#50ff"
+        android:text="Defeito"
+        style="@style/estilolabel"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDefeito"
+        android:background="#500f"
+        android:hint="Digite aqui a descrição do defeito"
+        style="@style/estiloCampos"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valor:"
+            style="@style/estilolabel"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="000"
+            android:inputType="numberDecimal"
+            android:id="@+id/etValor"
+            style="@style/estiloCampos"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tipo"
+            style="@style/estilolabel"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Orçamento"
+                style="@style/estiloCampos"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Serviço"
+                style="@style/estiloCampos"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Categoria"
+            style="@style/estilolabel"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spCategoria"
+            android:entries="@array/Categoria"
+            style="@style/estiloCampos">
+
+        </Spinner>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/txtSalvar"
+            style="@style/estilolabel"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
